@@ -115,8 +115,9 @@
 
   /* Store Badges */
   .store { margin-right: 8px; }
-  img.googleplay-original { width: 156px; height: 48px; }
-  img.appstore-original { width: 156px; height: 48px; } 
+  img.rappi-original { width: 80px; height: 70px; }
+  img.didifood-original { width: 156px; height: 48px; } 
+  img.ubereats-original { width: 156px; height: 48px; }
 
   /* Section Title */
   .section-title h2.h2-title { font-size: 4.15rem; }
@@ -213,6 +214,7 @@
   #hero-4 { padding-top: 100px; padding-bottom: 80px; }
   #hero-5 .bg-inner { padding-top: 80px; margin-bottom: 60px; }
   #hero-9 .bg-inner { padding-top: 100px; padding-bottom: 90px; }
+  #veloce-nosotros .bg-inner { padding-top: 100px; padding-bottom: 90px; }
   #hero-10 { padding-top: 80px; padding-bottom: 60px; }
   #hero-11 { padding-top: 90px; padding-bottom: 70px; }
   #hero-12 { padding-top: 100px; padding-bottom: 60px; }
@@ -238,6 +240,7 @@
   .hero-4-txt h3 { font-size: 2rem; }
   #hero-5 h2 { font-size: 15rem; }
   #hero-9 h2 { font-size: 5.5rem; padding: 0 5%; margin-bottom: 25px; }
+  #veloce-nosotros h2 { font-size: 5.5rem; padding: 0 5%; margin-bottom: 25px; }
   #hero-10 h2 { font-size: 15rem; border-bottom: 6px solid #fff; padding-bottom: 25px; margin-bottom: 35px; } 
   #hero-10 h3 { font-size: 4.25rem; }
   #hero-11 h2 { font-size: 9rem; margin-bottom: 20px; }
@@ -647,6 +650,7 @@
   #hero-4 { padding-top: 80px; padding-bottom: 80px; }
   #hero-5 .bg-inner { padding-top: 50px; margin-bottom: 50px; }
   #hero-9 .bg-inner { padding-top: 90px; padding-bottom: 80px; }
+  #veloce-nosotros .bg-inner { padding-top: 90px; padding-bottom: 80px; }
   #hero-10 { padding-top: 60px; padding-bottom: 50px; }
   #hero-11 { padding-top: 70px; padding-bottom: 50px; }
   #hero-12 { padding-top: 80px; padding-bottom: 40px; }
@@ -673,6 +677,7 @@
   .hero-4-txt h3 { font-size: 1.75rem; margin-bottom: 15px; }
   #hero-5 h2 { font-size: 12rem; }
   #hero-9 h2 { font-size: 4.75rem; padding: 0; margin-bottom: 20px; }
+  #veloce-nosotros h2 { font-size: 4.75rem; padding: 0; margin-bottom: 20px; }
   #hero-10 h2 { font-size: 13rem; border-bottom: 4px solid #fff; padding-bottom: 25px; margin-bottom: 35px; } 
   #hero-10 h3 { font-size: 3.5rem; }
   #hero-11 h2 { font-size: 7.5rem; margin-bottom: 20px; }
@@ -1264,6 +1269,7 @@
   #hero-4 { padding-top: 80px; padding-bottom: 80px; }
   #hero-5 .bg-inner { padding-top: 50px; margin-bottom: 30px; }
   #hero-9 .bg-inner { padding-top: 80px; padding-bottom: 80px; }
+  #veloce-nosotros .bg-inner { padding-top: 80px; padding-bottom: 80px; }
   #hero-10 { padding-top: 60px; padding-bottom: 50px; }
   #hero-11 { padding-top: 80px; padding-bottom: 80px; }
   #hero-12 { padding-top: 80px; padding-bottom: 50px; }
@@ -1289,6 +1295,7 @@
   .hero-4-txt h3 { font-size: 2rem; margin-bottom: 15px; }
   #hero-5 h2 { font-size: 9rem; }
   #hero-9 h2 { font-size: 3.75rem; padding: 0; margin-bottom: 20px; }
+  #veloce-nosotros h2 { font-size: 3.75rem; padding: 0; margin-bottom: 20px; }
   #hero-10 h2 { font-size: 12rem; border-bottom: 4px solid #fff; padding-bottom: 25px; margin-bottom: 35px; } 
   #hero-10 h3 { font-size: 3.15rem; margin-bottom: 60px; }
   #hero-11 h2 { font-size: 7.5rem; margin-bottom: 20px; }
@@ -1779,6 +1786,7 @@
   #hero-4 { padding-top: 80px; padding-bottom: 80px; }
   #hero-5 .bg-inner { padding-top: 50px; margin-bottom: 30px; }
   #hero-9 .bg-inner { padding-top: 80px; padding-bottom: 80px; }
+  #veloce-nosotros .bg-inner { padding-top: 80px; padding-bottom: 80px; }
   #hero-10 { padding-top: 60px; padding-bottom: 50px; }
   #hero-11 { padding-top: 80px; padding-bottom: 80px; }
   #hero-12 { padding-top: 80px; padding-bottom: 50px; }
@@ -1807,6 +1815,7 @@
   .hero-4-txt h3 { font-size: 1.85rem; margin-bottom: 15px; }
   #hero-5 h2 { font-size: 7rem; }
   #hero-9 h2 { font-size: 3.25rem; padding: 0; margin-bottom: 20px; }
+  #veloce-nosotros h2 { font-size: 3.25rem; padding: 0; margin-bottom: 20px; }
   #hero-10 h2 { font-size: 10rem; border-bottom: 3px solid #fff; padding-bottom: 25px; margin-bottom: 35px; } 
   #hero-10 h3 { font-size: 2.75rem; margin-bottom: 60px; }
   #hero-11 h2 { font-size: 7rem; margin-bottom: 20px; }
@@ -2273,8 +2282,9 @@
 
   /* Store Badges */
   .store { margin-right: 8px; }
-  img.googleplay-original { width: 156px; height: 48px; }
-  img.appstore-original { width: 156px; height: 48px; } 
+  img.rappi-original { width: 80px; height: 70px; }
+  img.didifood-original { width: 156px; height: 48px; } 
+  img.ubereats-original { width: 156px; height: 48px; }
 
   /* Section Title */
   .section-title.mb-60 { margin-bottom: 45px; }
@@ -2332,6 +2342,7 @@
   #hero-4 { padding-top: 80px; padding-bottom: 80px; }
   #hero-5 .bg-inner { padding-top: 60px; margin-bottom: 30px; }
   #hero-9 .bg-inner { padding-top: 80px; padding-bottom: 80px; }
+  #veloce-nosotros .bg-inner { padding-top: 80px; padding-bottom: 80px; }
   #hero-10 { padding-top: 60px; padding-bottom: 40px; }
   #hero-11 { padding-top: 80px; padding-bottom: 80px; }
   #hero-12 { padding-top: 80px; padding-bottom: 40px; }
@@ -2362,6 +2373,7 @@
   .hero-4-txt h3 { font-size: 1.5rem; margin-bottom: 15px; }
   #hero-5 h2 { font-size: 6.25rem; }
   #hero-9 h2 { font-size: 2.75rem; padding: 0; letter-spacing: 2px; margin-bottom: 20px; }
+  #veloce-nosotros h2 { font-size: 2.75rem; padding: 0; margin-bottom: 20px; }
   #hero-10 h2 { font-size: 8.5rem; border-bottom: 3px solid #fff; padding-bottom: 25px; margin-bottom: 35px; } 
   #hero-10 h3 { font-size: 2.25rem; margin-bottom: 60px; }
   #hero-11 h2 { font-size: 6.5rem; margin-bottom: 20px; }
@@ -2836,8 +2848,9 @@
 
   /* Store Badges */
   .store { display: block; float: none; margin: 0 10px 10px; }
-  img.googleplay-original { width: 150px; height: 46px; }
-  img.appstore-original { width: 150px; height: 46px; } 
+  img.rappi-original { width: 80px; height: 70px; }
+  img.didifood-original { width: 156px; height: 48px; } 
+  img.ubereats-original { width: 156px; height: 48px; }
 
   /* Section Title */
   .section-title.mb-60 { margin-bottom: 45px; }
@@ -2898,6 +2911,7 @@
   #hero-4 { padding-top: 80px; padding-bottom: 80px; }
   #hero-5 .bg-inner { padding-top: 60px; margin-bottom: 30px; }
   #hero-9 .bg-inner { padding-top: 80px; padding-bottom: 80px; }
+  #veloce-nosotros .bg-inner { padding-top: 80px; padding-bottom: 80px; }
   #hero-10, #hero-12 { padding-top: 80px; padding-bottom: 40px; }
   #hero-11 { padding-top: 80px; padding-bottom: 80px; }
 
@@ -2927,6 +2941,7 @@
   .hero-4-txt h3 { font-size: 1.25rem; margin-bottom: 15px; }
   #hero-5 h2 { font-size: 5.5rem; }
   #hero-9 h2 { font-size: 2.25rem; padding: 0; letter-spacing: 2px; margin-bottom: 20px; }
+  #veloce-nosotros h2 { font-size: 2.25rem; padding: 0; margin-bottom: 20px; }
   #hero-10 h2 { font-size: 8rem; border-bottom: 3px solid #fff; padding-bottom: 25px; margin-bottom: 35px; } 
   #hero-10 h3 { font-size: 2rem; margin-bottom: 60px; }
   #hero-11 h2 { font-size: 6rem; margin-bottom: 15px; }

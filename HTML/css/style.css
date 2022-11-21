@@ -1093,7 +1093,7 @@ span.item-code {
 
 .pbox-7-img .menu-img-zoom,
 .menu-6-img .menu-img-zoom {
-  bottom: 15px;
+  bottom: 10px;
   left: 15px;
 }
 
@@ -1896,7 +1896,7 @@ span.item-code {
 }
 
 #header-3.navik-header {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 /*------------------------------------------*/
@@ -1940,7 +1940,7 @@ span.item-code {
 
 .navik-menu.navik-yellow ul li:hover > a,
 .navik-menu.navik-yellow .mega-menu-heading a:hover {
-  color: #f7be27;
+  color: #fbc200;
 }
 
 .navik-menu.navik-meat ul li:hover > a,
@@ -1973,7 +1973,7 @@ span.item-code {
 }
 
 #header-3 .navik-menu ul li.nav-btn.yellow-color > a {
-  color: #f7be27;
+  color: #fbc200;
 }
 
 #header-3 .navik-menu ul li.nav-btn.red-color > a {
@@ -2283,6 +2283,13 @@ span.ico-holder {
   line-height: 1.1;
   letter-spacing: 3px;
   margin-bottom: 30px;
+  line-height: 1.1;
+}
+
+#veloce-nosotros h2 {
+  font-size: 6rem;
+  letter-spacing: 1px;
+  padding-bottom: 50%;
 }
 
 #hero-2 h2 {
@@ -2340,9 +2347,6 @@ span.ico-holder {
 }
 
 #hero-9 h2 {
-  font-size: 7rem;
-  opacity: .95;
-  padding: 0 5%;
   margin-bottom: 25px;
 }
 
@@ -2579,7 +2583,7 @@ span.ico-holder {
 .about-4-txt h2,
 .about-5-txt h2,
 .about-6-txt h2 {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .about-1-txt p,
@@ -3347,7 +3351,7 @@ span.ico-holder {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .menu-7-item {
@@ -3961,7 +3965,7 @@ span.ico-holder {
 }
 
 .review-rating i {
-  color: #f7be27;
+  color: #fbc200;
   font-size: 1.1rem;
   line-height: 1;
   margin: 0 1px;
@@ -4144,8 +4148,9 @@ span.ico-holder {
   margin-right: 0;
 } 
 
-img.googleplay-original { display: block; width: 163px; height: 50px; }
-img.appstore-original { display: block; width: 163px; height: 50px; } 
+img.rappi-original { display: block; width: 80px; height: 70px; }
+img.didifood-original { display: block; width: 80px; height: 70px; } 
+img.ubereats-original { display: block; width: 80px; height: 70px; } 
 
 /*------------------------------------------*/
 /*  BANNER IMAGE
@@ -5498,6 +5503,17 @@ select:-webkit-autofill:focus {
   background-image: url(../images/menu-page.jpg);
 }
 
+#veloce-header {
+  background-image: url(../images/001.jpg);
+}
+
+#veloce-nosotros .bg-inner {
+  position: relative;
+  background-image: url(../images/021.jpg);
+  padding-top: 300px;
+  padding-bottom: 70px;
+}
+
 #product-page {
   background-image: url(../images/product-page.jpg);
 }
@@ -6275,5 +6291,17 @@ nav a#pull {
   display: none;  
 } 
 
+/*texto sobre imagen*/
+.card-title {
+  position: absolute;    /* posición absolute con respecto al padre */
+  bottom: 0;             /* posicionada en la esquina inferior derecha */
+  right: 1rem;
+}
 
-
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
