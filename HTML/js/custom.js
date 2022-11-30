@@ -10,8 +10,8 @@
 		/*	Preloader
 		/*----------------------------------------------------*/
 		
-		$("#loader").delay(100).fadeOut();
-		$("#loader-wrapper").delay(100).fadeOut("fast");
+		//$("#loader").delay(100).fadeOut();
+		//$("#loader-wrapper").delay(100).fadeOut("fast");
 				
 	});
 
@@ -202,7 +202,7 @@
 					patterns: {
 						youtube: {			   
 							index: 'youtube.com',
-							src: 'https://www.youtube.com/embed/SZEflIVnhH8'				
+							src: 'https://www.youtube.com/embed/pFNVudhFMgA'				
 								}
 							}
 						}		  		  
