@@ -377,6 +377,8 @@ h4.h4-xl { font-size: 2.375rem; }   /* 38px */
 
 h3.h3-xs { font-size: 2.5rem; }     /* 40px */
 h3.h3-sm { font-size: 2.625rem; }   /* 42px */
+h3.h3-mdd { font-size: 6rem; }   /* 42px */
+h3.h3-mdd2 { font-size: 3rem; }   /* 42px */
 h3.h3-md { font-size: 2.75rem; }    /* 44px */
 h3.h3-lg { font-size: 2.875rem; }   /* 46px */
 h3.h3-xl { font-size: 3rem; }       /* 48px */
@@ -460,19 +462,19 @@ ul.txt-list {
 /*------------------------------------------*/
 
 .btn {
-  background-color: transparent;
+  /* background-color: transparent; */
   font-family: 'Oswald', sans-serif;
   color: #fff;
-  font-size: 16px;
+  font-size: 35px;
   line-height: 1;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   padding: 13px 32px;
   border: 1px solid transparent;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;  
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
   -webkit-transition: all 400ms ease-in-out;
   -moz-transition: all 400ms ease-in-out;
   -o-transition: all 400ms ease-in-out;
@@ -1906,7 +1908,7 @@ span.item-code {
 .navik-menu ul li > a {
   display: block;
   font-family: 'Oswald', sans-serif;
-  font-size: 1.095rem;
+  font-size: 1.3rem;
   font-weight: 500;
   text-transform: uppercase;
   -webkit-transition: all 150ms ease-in-out;
@@ -2337,11 +2339,11 @@ span.ico-holder {
 
 #hero-5 h2 {
   font-family: 'Lilita One', cursive;
-  font-size: 17rem;
+  font-size: 12rem;
   line-height: 1;
   letter-spacing: 0;
   position: relative;
-  opacity: .25;
+  opacity: .70;
   z-index: 8;
   margin-bottom: 0;
 }
@@ -4281,14 +4283,19 @@ img.ubereats-original { display: block; width: 80px; height: 70px; }
 /*------------------------------------------*/
 
 .newsletter-section .btn {
-  height: 58px;
-  font-size: 1.15rem;
-  padding: 15px 60px;
-  margin-left: 8px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
+  color: #fff;
+  font-size: 35px;
+  line-height: 1;
+  font-weight: 500;
+  /* height: 58px;
+  font-size: 1.5rem; */
+  padding: 8px 22px;
+  /* margin-left: 8px; */
+  border: 1px solid transparent;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
 }
 
 /*------------------------------------------*/
@@ -5165,11 +5172,6 @@ select:-webkit-autofill:focus {
   border:0;
 }
 
-#contacts-5 #gmap {
-  margin-top: 30px;
-}
-
-
 
 
 /* ==========================================================================
@@ -5506,6 +5508,10 @@ select:-webkit-autofill:focus {
 
 #veloce-header {
   background-image: url(../images/001.jpg);
+}
+
+#veloce-franquicia {
+  background-image: url(../images/velocentro-h.jpg);
 }
 
 #veloce-nosotros .bg-inner {
@@ -6311,13 +6317,13 @@ nav a#pull {
 .feedback {
   background-color : rgba(227, 0, 14, .95);
   color: white;
-  padding: 10px 20px;
+  padding: 20px 60px;
   border-radius: 4px;
   border-color: rgba(227, 0, 14, .95);
 }
 
 #mybutton {
   position: fixed;
-  bottom: -4px;
-  right: 10px;
+  bottom: 20px;
+  right: 20px;
 }
