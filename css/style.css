@@ -27,7 +27,7 @@ html {
  
 body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #283034;
+  color: #191e20;
   font-weight: 300;
 }
 
@@ -58,8 +58,9 @@ body {
 .wide-60 { padding-top: 100px; padding-bottom: 60px; }
 .wide-50 { padding-top: 100px; padding-bottom: 50px; }
 .wide-40 { padding-top: 100px; padding-bottom: 40px; }
-.wide-30 { padding-top: 100px; padding-bottom: 30px; }
-.wide-20 { padding-top: 100px; padding-bottom: 20px; }
+.wide-30 { padding-top: 40px; padding-bottom: 30px; }
+.wide-20 { padding-top: 30px; padding-bottom: 20px; }
+.wide-10 { padding-top: 15px; padding-bottom: 10px; }
 
 /*------------------------------------------*/
 /*  Margin Top
@@ -385,7 +386,7 @@ h3.h3-xl { font-size: 3rem; }       /* 48px */
 
 /* Header H2 */
 h2.h2-xs { font-size: 3.125rem; }   /* 50px */
-h2.h2-sm { font-size: 3.25rem; }    /* 52px */
+h2.h2-sm { font-size: 3.20rem; }    /* 52px */
 h2.h2-md { font-size: 3.375rem; }   /* 54px */
 h2.h2-lg { font-size: 3.5rem; }     /* 56px */ 
 h2.h2-xl { font-size: 3.75rem; }    /* 60px */
@@ -522,7 +523,7 @@ ul.txt-list {
 .btn-dark {
   color: #fff;
   background-color: #000;
-  border-color: #ddd!important;
+  border-color: #000!important;
 }
 
 .btn-brown, 
@@ -2108,6 +2109,7 @@ span.ico-holder {
   margin-bottom: 60px;
 }
 
+
 #hero-9 .bg-inner {
   position: relative;
   background-image: url(../images/hero-9.jpg);
@@ -2349,11 +2351,11 @@ span.ico-holder {
   line-height: 0.8;
   letter-spacing: -3px;
   position: relative;
-  opacity: 1;
+  opacity: .8;
   z-index: 8;
-  text-transform: none;
+  text-transform: uppercase;
   text-shadow: 0px 5px 0px black;
-  margin-bottom: 66px;
+  margin-bottom: 20px;
 }
 
 #hero-9 h2 {
@@ -2498,7 +2500,7 @@ span.ico-holder {
 }
 
 .hero-5-img {
-  margin-top: -90px;
+  margin-top: -20px;
   margin-bottom: -40px;
   position: relative;
   z-index: 9;
@@ -2548,7 +2550,7 @@ span.ico-holder {
 
 #about-7 {
   padding-top: 70px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 /*------------------------------------------*/
@@ -3874,7 +3876,7 @@ span.ico-holder {
 }
 
 #reviews-1.bg-image {
-  background-image: url(../images/reviews.jpg);
+  background-image: url(../images/promo-11.jpg);
 }
 
 /*------------------------------------------*/
@@ -3902,7 +3904,7 @@ span.ico-holder {
 
 #reviews-1 img {
   width: 120px;
-  height: 120px;
+  height: 400px;
   display: inline-block;
   margin: 0 auto 20px;
   -webkit-border-radius: 100%;
@@ -4159,9 +4161,9 @@ span.ico-holder {
   margin-right: 0;
 } 
 
-img.rappi-original { display: block; width: 80px; height: 70px; }
-img.didifood-original { display: block; width: 80px; height: 70px; } 
-img.ubereats-original { display: block; width: 80px; height: 70px; } 
+img.rappi-original { display: inline-block; width: 80px; height: 70px; }
+img.didifood-original { display: inline-block; width: 80px; height: 70px; } 
+img.ubereats-original { display: inline-block; width: 80px; height: 70px; } 
 
 /*------------------------------------------*/
 /*  BANNER IMAGE
@@ -4375,6 +4377,7 @@ img.ubereats-original { display: block; width: 80px; height: 70px; }
   -o-transform: scale(1.1);
   -moz-transform: scale(1.1);
 }
+
 
 /*------------------------------------------*/
 /*  BLOG LISTING PAGE
@@ -5515,7 +5518,7 @@ select:-webkit-autofill:focus {
 }
 
 #veloce-header {
-  background-image: url(../images/001.jpg);
+  background-image: url(../images/promo-11.jpg);
 }
 
 #veloce-franquicia {
@@ -6334,4 +6337,5 @@ nav a#pull {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  z-index:3;
 }

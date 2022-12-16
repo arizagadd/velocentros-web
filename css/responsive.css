@@ -100,7 +100,7 @@
   h3.h3-xl { font-size: 2.67rem; } 
 
   /* Header H2 */
-  h2.h2-xs { font-size: 2.78rem; }  
+  h2.h2-xs { font-size: 2.68rem; }  
   h2.h2-sm { font-size: 2.89rem; }  
   h2.h2-md { font-size: 3rem; }  
   h2.h2-lg { font-size: 3.11rem; }  
@@ -115,9 +115,9 @@
 
   /* Store Badges */
   .store { margin-right: 8px; }
-  img.rappi-original { width: 80px; height: 70px; }
-  img.didifood-original { width: 156px; height: 48px; } 
-  img.ubereats-original { width: 156px; height: 48px; }
+  img.rappi-original { width: 70px; height: 60px; }
+  img.didifood-original { width: 70px; height:60px; } 
+  img.ubereats-original { width: 70px; height:60px; }
 
   /* Section Title */
   .section-title h2.h2-title { font-size: 4.15rem; }
@@ -480,6 +480,12 @@
 
 @media (min-width: 768px) and (max-width: 991.95px) { 
 
+  /* Ocultar banner index.html */
+
+  .banner-pizza {
+    display: none;
+  }
+
   /*------------------------------------------*/
   /*   BASE
   /*------------------------------------------*/
@@ -491,10 +497,11 @@
   .wide-60 { padding-top: 80px; padding-bottom: 40px; }
   .wide-50 { padding-top: 80px; padding-bottom: 30px; }
   .wide-40 { padding-top: 80px; padding-bottom: 20px; }
-  .wide-30 { padding-top: 80px; padding-bottom: 10px; }
-  .wide-20 { padding-top: 80px; padding-bottom: 0; }
+  .wide-30 { padding-top: 30px; padding-bottom: 10px; }
+  .wide-20 { padding-top: 10px; padding-bottom: 0; }
 
   .pt-100 { padding-top: 80px; }
+  .pt-50 { padding-top: 40px;}
   .pb-100 { padding-bottom: 80px; } 
   .pt-80 { padding-top: 60px; } 
   .pb-80 { padding-bottom: 60px; } 
@@ -532,7 +539,7 @@
   h3.h3-xl { font-size: 2.3rem; } 
 
   /* Header H2 */
-  h2.h2-xs { font-size: 2.4rem; }  
+  h2.h2-xs { font-size: 2.3rem; }  
   h2.h2-sm { font-size: 2.5rem; }  
   h2.h2-md { font-size: 2.6rem; }  
   h2.h2-lg { font-size: 2.7rem; }  
@@ -977,7 +984,7 @@
 
   /* Google Map */
   .google-map { padding: 0px 0px 50%; }
-  #contacts-5 #gmap { margin-top: 20px; }
+  #contacts-5 #gmap { margin-top: 10px; }
 
   /* Footer */
   #footer-1 .footer-contacts, #footer-4 .footer-contacts, #footer-4 .footer-info { padding-left: 0; }
@@ -1043,6 +1050,11 @@
 
 @media (max-width: 767px) { 
 
+  /*Ocultar banner de index.html*/
+  .banner-pizza {
+    display: none;
+  }
+
   /*------------------------------------------*/
   /*   BASE
   /*------------------------------------------*/
@@ -1054,10 +1066,11 @@
   .wide-60 { padding-top: 80px; padding-bottom: 40px; }
   .wide-50 { padding-top: 80px; padding-bottom: 30px; }
   .wide-40 { padding-top: 80px; padding-bottom: 20px; }
-  .wide-30 { padding-top: 80px; padding-bottom: 10px; }
-  .wide-20 { padding-top: 80px; padding-bottom: 0; }
+  .wide-30 { padding-top: 30px; padding-bottom: 10px; }
+  .wide-20 { padding-top: 20px; padding-bottom: 0; }
 
   .pt-100 { padding-top: 80px; }
+  .pt-50 { padding-top: 40px;}
   .pb-100 { padding-bottom: 80px; } 
   .pt-80 { padding-top: 60px; } 
   .pb-80 { padding-bottom: 60px; } 
@@ -1187,6 +1200,11 @@
 
 @media (min-width: 480px) and (max-width: 767.95px) {
 
+  /*Ocultar banner de index.html*/
+  .banner-pizza {
+    display: none;
+  }
+  
   .m-row { display: flex; flex-flow: wrap; }
   .m-top, .m-bottom { width: 100%; }
   .m-bottom { order: 1; }
@@ -1220,7 +1238,7 @@
   h3.h3-xl { font-size: 2.1rem; } 
 
   /* Header H2 */
-  h2.h2-xs { font-size: 2.15rem; }  
+  h2.h2-xs { font-size: 2.05rem; }  
   h2.h2-sm { font-size: 2.25rem; }  
   h2.h2-md { font-size: 2.35rem; }  
   h2.h2-lg { font-size: 2.45rem; }  
@@ -1712,7 +1730,7 @@
   h3.h3-xl { font-size: 2.1rem; } 
 
   /* Header H2 */
-  h2.h2-xs { font-size: 2.1rem; }  
+  h2.h2-xs { font-size: 2.0rem; }  
   h2.h2-sm { font-size: 2.2rem; }  
   h2.h2-md { font-size: 2.3rem; }  
   h2.h2-lg { font-size: 2.4rem; }  
@@ -1862,7 +1880,7 @@
   .abox-1-wrapper { padding: 0; margin-bottom: 10px; }
   .abox-2-wrapper { margin-top: 30px; }
 
-  .abox-1-wrapper .col-sm-4, .abox-2-wrapper .col-sm-3, .abox-3-wrapper .col-sm-3 { width: 50%; float: left; }
+  .abox-1-wrapper .col-sm-4, .abox-2-wrapper .col-sm-3, .abox-3-wrapper .col-sm-3, .abox-2-wrapper .col-sm-2 { width: 50%; float: left; }
 
   .abox-2 { margin-bottom: 40px; }
   .abox-4 { padding: 0 5%; }
@@ -2262,7 +2280,7 @@
   h3.h3-xl { font-size: 1.9rem; } 
 
   /* Header H2 */
-  h2.h2-xs { font-size: 1.9rem; }  
+  h2.h2-xs { font-size: 1.8rem; }  
   h2.h2-sm { font-size: 2rem; }  
   h2.h2-md { font-size: 2.1rem; }  
   h2.h2-lg { font-size: 2.2rem; }  
@@ -2282,9 +2300,9 @@
 
   /* Store Badges */
   .store { margin-right: 8px; }
-  img.rappi-original { width: 80px; height: 70px; }
-  img.didifood-original { width: 156px; height: 48px; } 
-  img.ubereats-original { width: 156px; height: 48px; }
+  img.rappi-original { width: 70px; height: 60px; }
+  img.didifood-original { width: 70px; height:60px; } 
+  img.ubereats-original { width: 70px; height:60px; }
 
   /* Section Title */
   .section-title.mb-60 { margin-bottom: 45px; }
@@ -2420,7 +2438,7 @@
   .abox-1-wrapper { padding: 0; margin-bottom: 10px; }
   .abox-2-wrapper { margin-top: 30px; }
 
-  .abox-1-wrapper .col-sm-4, .abox-2-wrapper .col-sm-3, .abox-3-wrapper .col-sm-3 { width: 50%; float: left; }
+  .abox-1-wrapper .col-sm-4, .abox-2-wrapper .col-sm-3, .abox-3-wrapper .col-sm-3, .abox-2-wrapper .col-sm-2 { width: 50%; float: left; }
 
   .abox-2 { margin-bottom: 40px; }
   .abox-4 { padding: 0; }
@@ -2828,7 +2846,7 @@
   h3.h3-xl { font-size: 1.7rem; } 
 
   /* Header H2 */
-  h2.h2-xs { font-size: 1.7rem; }  
+  h2.h2-xs { font-size: 1.6rem; }  
   h2.h2-sm { font-size: 1.8rem; }  
   h2.h2-md { font-size: 1.9rem; }  
   h2.h2-lg { font-size: 2rem; }  
@@ -2848,9 +2866,9 @@
 
   /* Store Badges */
   .store { display: block; float: none; margin: 0 10px 10px; }
-  img.rappi-original { width: 80px; height: 70px; }
-  img.didifood-original { width: 156px; height: 48px; } 
-  img.ubereats-original { width: 156px; height: 48px; }
+  img.rappi-original { width: 70px; height: 60px; }
+  img.didifood-original { width: 70px; height:60px; } 
+  img.ubereats-original { width: 70px; height:60px; }
 
   /* Section Title */
   .section-title.mb-60 { margin-bottom: 45px; }
@@ -2988,7 +3006,7 @@
   .abox-1-wrapper { padding: 0; margin-bottom: 10px; }
   .abox-2-wrapper { margin-top: 30px; }
 
-  .abox-1-wrapper .col-sm-4, .abox-2-wrapper .col-sm-3, .abox-3-wrapper .col-sm-3 { width: 50%; float: left; }
+  .abox-1-wrapper .col-sm-4, .abox-2-wrapper .col-sm-3, .abox-3-wrapper .col-sm-3, .abox-2-wrapper .col-sm-2{ width: 50%; float: left; }
 
   .abox-2 { margin-bottom: 40px; }
   .abox-4 { padding: 0 3%; }
