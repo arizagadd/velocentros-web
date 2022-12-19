@@ -498,7 +498,7 @@
   .wide-50 { padding-top: 80px; padding-bottom: 30px; }
   .wide-40 { padding-top: 80px; padding-bottom: 20px; }
   .wide-30 { padding-top: 30px; padding-bottom: 10px; }
-  .wide-20 { padding-top: 10px; padding-bottom: 0; }
+  .wide-20 { padding-top: 20px; padding-bottom: 0; }
 
   .pt-100 { padding-top: 80px; }
   .pt-50 { padding-top: 40px;}
@@ -785,7 +785,7 @@
   .pbox-7-txt { display: inline-block; width: 50%; }
 
   #pb-7-1, #pb-7-2, #pb-7-3 { padding: 40px 20px 40px 30px; }
-  .pbox-7 { margin-bottom: 30px; }
+  .pbox-7 { margin-bottom: 20px; }
 
   .pbox-7-txt h4 { font-size: 1.8rem; }
   .pbox-7-price h5 { font-size: 1.65rem; }
@@ -1405,7 +1405,7 @@
   .pbox-6-price h5 { font-size: 1.7rem; }
 
   #promo-7 { padding-bottom: 20px; }
-  .pbox-7 { margin-bottom: 40px; }
+  .pbox-7 { margin-bottom: 20px; }
   #pb-7-1, #pb-7-2, #pb-7-3 { padding: 30px 15px 0; }
   .pbox-7-txt h4 { font-size: 1.85rem; }
   .pbox-7-price h5 { font-size: 1.85rem; }
@@ -1933,7 +1933,7 @@
   .pbox-6-price h5 { font-size: 1.7rem; }
 
   #promo-7 { padding-bottom: 20px; }
-  .pbox-7 { margin-bottom: 40px; }
+  .pbox-7 { margin-bottom: 20px; }
   #pb-7-1, #pb-7-2, #pb-7-3 { padding: 30px 15px 0; }
   .pbox-7-txt h4 { font-size: 1.7rem; }
   .pbox-7-price { margin-top: 20px; }
@@ -2487,7 +2487,7 @@
   .pbox-6-price h5 { font-size: 1.7rem; }
 
   #promo-7 { padding-bottom: 20px; }
-  .pbox-7 { margin-bottom: 40px; }
+  .pbox-7 { margin-bottom: 20px; }
   #pb-7-1, #pb-7-2, #pb-7-3 { padding: 30px 0 0; }
   .pbox-7-txt h4 { font-size: 1.7rem; }
   .pbox-7-price { margin-top: 20px; }
@@ -3057,7 +3057,7 @@
   .pbox-6-price h5 { font-size: 1.7rem; }
 
   #promo-7 { padding-bottom: 20px; }
-  .pbox-7 { margin-bottom: 40px; }
+  .pbox-7 { margin-bottom: 20px; }
   #pb-7-1, #pb-7-2, #pb-7-3 { padding: 30px 0 0; }
   .pbox-7-txt h4 { font-size: 1.7rem; }
   .pbox-7-price h5 { font-size: 1.7rem; }
