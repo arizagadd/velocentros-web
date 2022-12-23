@@ -390,6 +390,7 @@ h2.h2-sm { font-size: 3.20rem; }    /* 52px */
 h2.h2-md { font-size: 3.375rem; }   /* 54px */
 h2.h2-lg { font-size: 3.5rem; }     /* 56px */ 
 h2.h2-xl { font-size: 3.75rem; }    /* 60px */
+h2.h2-xl- { font-size: 3.75rem; }
 
 /*------------------------------------------*/
 /*  PARAGRAPHS
@@ -484,6 +485,7 @@ ul.txt-list {
   margin-right: -10px;
 }
 
+
 /*------------------------------------------*/
 /*  Button Size
 /*------------------------------------------*/
@@ -499,8 +501,8 @@ ul.txt-list {
 }
 
 .btn.btn-lg {
-  font-size: 20px;
-  padding: 15px 42px;
+  font-size: 22px;
+  padding: 10px 70px;
 }
 
 /*------------------------------------------*/
@@ -6343,4 +6345,13 @@ nav a#pull {
   bottom: 20px;
   right: 20px;
   z-index:3;
+}
+
+#fqa {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }

@@ -105,6 +105,7 @@
   h2.h2-md { font-size: 3rem; }  
   h2.h2-lg { font-size: 3.11rem; }  
   h2.h2-xl { font-size: 3.35rem; }
+  h2.h2-xl- { font-size: 2.68rem; }
 
   /* Paragraphs */
   p.p-sm { font-size: 0.95rem; }  
@@ -544,6 +545,7 @@
   h2.h2-md { font-size: 2.6rem; }  
   h2.h2-lg { font-size: 2.7rem; }  
   h2.h2-xl { font-size: 2.8rem; }
+  h2.h2-xl- { font-size: 2.3rem; }
 
   /* Paragraphs */
   p.p-sm { font-size: 0.95rem; }  
@@ -555,7 +557,7 @@
   /* Button */
   .btn, .btn.btn-md, .btn.btn-lg { font-size: 16px; }
   .btn.btn-sm { font-size: 15px; padding: 12px 24px; }
-  .btn.btn-md, .btn.btn-lg { padding: 14px 34px; }
+  .btn.btn-md, .btn.btn-lg { padding: 10px 57px; }
 
   /* Section Title */
   .section-title h2.h2-title { font-size: 3.85rem; }
@@ -1243,6 +1245,7 @@
   h2.h2-md { font-size: 2.35rem; }  
   h2.h2-lg { font-size: 2.45rem; }  
   h2.h2-xl { font-size: 2.55rem; }
+  h2.h2-xl- { font-size: 2.05rem; }
 
   /* Paragraphs */
   p.p-sm { font-size: 1rem; }     
@@ -1254,7 +1257,7 @@
   /* Button */
   .btn, .btn.btn-md, .btn.btn-lg { font-size: 16px; }
   .btn.btn-sm { font-size: 15px; padding: 12px 24px; }
-  .btn.btn-md, .btn.btn-lg { padding: 14px 34px; }
+  .btn.btn-md, .btn.btn-lg { padding: 10px 57px; }
 
   /* Section Title */
   .section-title h2.h2-title { font-size: 3.5rem; }
@@ -1735,6 +1738,7 @@
   h2.h2-md { font-size: 2.3rem; }  
   h2.h2-lg { font-size: 2.4rem; }  
   h2.h2-xl { font-size: 2.5rem; }
+  h2.h2-xl- { font-size: 2.0rem; }
 
   /* Paragraphs */
   p.p-sm { font-size: 1rem; }     
@@ -1746,7 +1750,7 @@
   /* Button */
   .btn, .btn.btn-md, .btn.btn-lg { font-size: 16px; }
   .btn.btn-sm { font-size: 15px; padding: 12px 24px; }
-  .btn.btn-md, .btn.btn-lg { padding: 14px 34px; }
+  .btn.btn-md, .btn.btn-lg { padding: 10px 57px; }
 
   /* Section Title */
   .section-title.mb-60 { margin-bottom: 45px; }
@@ -2285,6 +2289,7 @@
   h2.h2-md { font-size: 2.1rem; }  
   h2.h2-lg { font-size: 2.2rem; }  
   h2.h2-xl { font-size: 2.3rem; }
+  h2.h2-xl- { font-size: 1.8rem; }
 
   /* Paragraphs */
   p.p-sm { font-size: 1rem; }     
@@ -2296,7 +2301,7 @@
   /* Button */
   .btn, .btn.btn-md, .btn.btn-lg { font-size: 16px; }
   .btn.btn-sm { font-size: 15px; padding: 12px 24px; }
-  .btn.btn-md, .btn.btn-lg { padding: 14px 34px; }
+  .btn.btn-md, .btn.btn-lg { padding: 10px 57px; }
 
   /* Store Badges */
   .store { margin-right: 8px; }
@@ -2851,6 +2856,7 @@
   h2.h2-md { font-size: 1.9rem; }  
   h2.h2-lg { font-size: 2rem; }  
   h2.h2-xl { font-size: 2.1rem; }
+  h2.h2-xl- { font-size: 1.6rem; }
 
   /* Paragraphs */
   p.p-sm { font-size: 1rem; }     
@@ -2862,7 +2868,7 @@
   /* Button */
   .btn, .btn.btn-md, .btn.btn-lg { font-size: 16px; }
   .btn.btn-sm { font-size: 15px; padding: 12px 24px; }
-  .btn.btn-md, .btn.btn-lg { padding: 14px 34px; }
+  .btn.btn-md, .btn.btn-lg { padding: 10px 57px; }
 
   /* Store Badges */
   .store { display: block; float: none; margin: 0 10px 10px; }

@@ -525,6 +525,8 @@
             //http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
 		});
 
+		$('.collapse').collapse()
+
 		$.ajaxChimp.translations.cm = {
 			'submit': 'Submitting...',
 			0: 'We have sent you a confirmation email',
