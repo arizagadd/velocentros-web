@@ -409,7 +409,7 @@
   /* Newsletter */
   #newsletter-1 .inner-bg { padding: 50px 0 40px; }
   .newsletter-section .newsletter-form { padding: 0 8%; }
-  .newsletter-section .form-control, .newsletter-section .btn { height: 56px; }
+  .newsletter-section .form-control, .newsletter-section .btn { height: 40px; }
 
   /* Blog */
   #blog-1 .col-lg-4 { padding-left: 8px; padding-right: 8px; }
@@ -947,7 +947,7 @@
   #newsletter-1.mb-20 { margin-bottom: 0; }
   #newsletter-1 .inner-bg { padding: 50px 0 40px; }
   .newsletter-section .newsletter-form { padding: 0 3%; }
-  .newsletter-section .form-control, .newsletter-section .btn { height: 56px; }
+  .newsletter-section .form-control, .newsletter-section .btn { height: 40px; }
 
   /* Blog */
   .blog-post-txt { padding: 0 3%; }
@@ -2125,7 +2125,7 @@
   }
 
   .newsletter-section .input-group-btn { display: block; width: 100%!important; }
-  .newsletter-section .btn { display: block; width: 100%!important; height: 56px; font-size: 1.125rem; margin-left: 0; }
+  .newsletter-section .btn { display: block; width: 100%!important; height: 40px; font-size: 1.125rem; margin-left: 0; }
 
   /* Blog */
   .blog-post-txt { padding: 0 3%; }
@@ -2677,7 +2677,7 @@
   }
 
   .newsletter-section .input-group-btn { display: block; width: 100%!important; }
-  .newsletter-section .btn { display: block; width: 100%!important; height: 56px; font-size: 1.125rem; margin-left: 0; }
+  .newsletter-section .btn { display: block; width: 100%!important; height: 40px; font-size: 1.125rem; margin-left: 0; }
 
   /* Blog */
   .blog-post-txt { padding: 0 3%; }
@@ -3245,7 +3245,7 @@
   }
 
   .newsletter-section .input-group-btn { display: block; width: 100%!important; }
-  .newsletter-section .btn { display: block; width: 100%!important; height: 56px; font-size: 1.125rem; margin-left: 0; }
+  .newsletter-section .btn { display: block; width: 100%!important; height: 40px; font-size: 1.125rem; margin-left: 0; }
 
   /* Blog */
   .blog-post-txt { padding: 0; }
