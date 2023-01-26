@@ -558,6 +558,8 @@
   .btn, .btn.btn-md, .btn.btn-lg { font-size: 16px; }
   .btn.btn-sm { font-size: 15px; padding: 12px 24px; }
   .btn.btn-md, .btn.btn-lg { padding: 10px 57px; }
+  a.mybutton { font-size: 18px; }
+  a.mybutton::before { min-width: calc(190px + 12px); min-height: calc(50px + 12px);}
 
   /* Section Title */
   .section-title h2.h2-title { font-size: 3.85rem; }
@@ -1258,6 +1260,8 @@
   .btn, .btn.btn-md, .btn.btn-lg { font-size: 16px; }
   .btn.btn-sm { font-size: 15px; padding: 12px 24px; }
   .btn.btn-md, .btn.btn-lg { padding: 10px 57px; }
+  a.mybutton { font-size: 18px; }
+  a.mybutton::before { min-width: calc(190px + 12px); min-height: calc(50px + 12px);}
 
   /* Section Title */
   .section-title h2.h2-title { font-size: 3.5rem; }
@@ -1751,6 +1755,8 @@
   .btn, .btn.btn-md, .btn.btn-lg { font-size: 16px; }
   .btn.btn-sm { font-size: 15px; padding: 12px 24px; }
   .btn.btn-md, .btn.btn-lg { padding: 10px 57px; }
+  a.mybutton { font-size: 18px; }
+  a.mybutton::before { min-width: calc(190px + 12px); min-height: calc(50px + 12px);}
 
   /* Section Title */
   .section-title.mb-60 { margin-bottom: 45px; }
@@ -2302,6 +2308,8 @@
   .btn, .btn.btn-md, .btn.btn-lg { font-size: 16px; }
   .btn.btn-sm { font-size: 15px; padding: 12px 24px; }
   .btn.btn-md, .btn.btn-lg { padding: 10px 57px; }
+  a.mybutton { font-size: 18px; }
+  a.mybutton::before { min-width: calc(190px + 12px); min-height: calc(50px + 12px);}
 
   /* Store Badges */
   .store { margin-right: 8px; }
@@ -2869,6 +2877,8 @@
   .btn, .btn.btn-md, .btn.btn-lg { font-size: 16px; }
   .btn.btn-sm { font-size: 15px; padding: 12px 24px; }
   .btn.btn-md, .btn.btn-lg { padding: 10px 57px; }
+  a.mybutton { font-size: 18px; }
+  a.mybutton::before { min-width: calc(190px + 12px); min-height: calc(50px + 12px);}
 
   /* Store Badges */
   .store { display: block; float: none; margin: 0 10px 10px; }

@@ -6345,8 +6345,8 @@ nav a#pull {
 
 #mybutton {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 60px;
+  right: 30px;
   z-index:3;
 }
 
@@ -6358,3 +6358,84 @@ nav a#pull {
   overflow: hidden;
   outline: none;
 }
+
+a.mybutton {
+  min-width: 300px;
+  min-height: 60px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #e3000e;
+  background: linear-gradient(90deg, #e3000e 0%, #c4000d 100%);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 12px 12px 24px #c4000d7e;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 8px 20px;
+  }
+
+a.mybutton::before {
+  content: '';
+  border-radius: 15px;
+  min-width: calc(220px + 12px);
+  min-height: calc(65px + 12px);
+  border: 4px solid #e3000e;
+  box-shadow: 0 0 60px #c4000d7e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+
+a.mybutton:hover, 
+a.mybutton:focus {
+  color: #ffffff;
+  transform: translateY(-6px);
+}
+
+a.mybutton:hover::before,
+a.mybutton:focus::before {
+  opacity: 1;
+}
+
+a.mybutton::after {
+  content: '';
+  width: 20px; height: 20px;
+  border-radius: 100%;
+  border: 6px solid #e3000e;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+a.mybutton:hover::after,
+a.mybutton:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+  }
+  100% {
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+  }
+}
+
