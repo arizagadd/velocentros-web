@@ -6426,3 +6426,7 @@ a.mybutton:focus::after {
   }
 }
 
+.hide {
+  display: none !important;
+}
+
