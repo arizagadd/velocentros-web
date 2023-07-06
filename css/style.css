@@ -6430,3 +6430,10 @@ a.mybutton:focus::after {
   display: none !important;
 }
 
+ul{
+  list-style:inside!important;
+}
+
+.fs-16 {
+  font-size: 16px!important;
+}
