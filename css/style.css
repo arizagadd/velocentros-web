@@ -6350,13 +6350,14 @@ nav a#pull {
   z-index:3;
 }
 
-#fqa {
+.fqa {
   background-color: transparent;
   background-repeat: no-repeat;
   border: none;
   cursor: pointer;
   overflow: hidden;
   outline: none;
+  text-align:left;
 }
 
 a.mybutton {
